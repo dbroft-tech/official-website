@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore D-Broft Technologies' portfolio of successful digital projects. View our work in web development, SEO optimization, digital marketing, and business transformation solutions across Uganda.">
+    <meta name="keywords" content="D-Broft portfolio, Uganda tech projects, web development portfolio, digital marketing case studies, SEO success stories, business transformation projects, Uganda digital solutions">
+    <meta name="author" content="D-Broft Technologies">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="D-Broft Technologies">
+    <meta property="og:title" content="Portfolio | D-Broft Technologies - Digital Excellence in Uganda">
+    <meta property="og:description" content="Discover our portfolio of successful digital projects. See how we've helped businesses transform through innovative technology solutions and digital strategies.">
+    <meta property="og:image" content="https://dbroft.vercel.app/img/portfolio.jpg">
+    <meta property="og:url" content="https://dbroft.vercel.app/html/portfolio.html">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@DBroftTech">
+    <meta name="twitter:title" content="Portfolio | D-Broft Technologies - Innovation at Work">
+    <meta name="twitter:description" content="View our showcase of successful digital projects and transformations. Leading tech solutions provider in Uganda.">
+    <meta name="twitter:image" content="https://dbroft.vercel.app/img/portfolio.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dbroft.vercel.app/html/portfolio.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.jpg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../bootstrap/disributions/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/overide.css">
+	
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0XVQHG9YV7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0XVQHG9YV7');
+</script>
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "D-Broft Technologies Portfolio",
+      "description": "Portfolio of digital projects and solutions by D-Broft Technologies",
+      "provider": {
+        "@type": "Organization",
+        "name": "D-Broft Technologies",
+        "url": "https://dbroft.vercel.app"
+      },
+      "about": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "Project",
+            "name": "Web Development Projects",
+            "description": "Custom websites and web applications"
+          },
+          {
+            "@type": "Project",
+            "name": "SEO Optimization Projects",
+            "description": "Search engine optimization and digital visibility"
+          },
+          {
+            "@type": "Project",
+            "name": "Digital Marketing Campaigns",
+            "description": "Successful marketing strategies and campaigns"
+          },
+          {
+            "@type": "Project",
+            "name": "Business Transformation",
+            "description": "Digital transformation success stories"
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <title>Portfolio | D-Broft Technologies - Digital Excellence in Uganda</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm sticky-top py-2">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.jpg" alt="D-Broft Technologies Logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./social.html">Social Media</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+          <a href="./contact.html" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--hero section-->
+    <section class="hero py-5" style="background-color: blue;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-3">Our Work Portfolio</h1>
+            <p class="lead mb-4">Explore our diverse collection of successful projects that showcase our expertise across all digital services. From SEO and digital marketing to animations and content creation, each project demonstrates our commitment to excellence.</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="../img/portfolio-hero.png" alt="D-Broft Technologies Portfolio" class="img-fluid rounded-3 shadow">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio filters-->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="btn-group flex-wrap" role="group" aria-label="Portfolio filters">
+            <button type="button" class="btn btn-outline-primary active" data-filter="all">All Projects</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="seo">SEO</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="digital-marketing">Digital Marketing</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="graphics-design">Graphics Design</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="social-media">Social Media</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="web-development">Web Development</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="branding">Branding</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="animations">Animations</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="content">Content Creation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio grid-->
+    <section class="pb-5">
+      <div class="container">
+        <div class="row g-4">
+          <!--SEO Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="seo">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/seo-project.jpg" class="card-img-top" alt="SEO Success Story">
+              <div class="card-body">
+                <h3 class="h5">E-commerce SEO Success</h3>
+                <p class="text-muted">SEO, Analytics</p>
+                <p>Increased organic traffic by 200% through comprehensive SEO strategy and optimization.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#seoModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Digital Marketing Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="digital-marketing">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/marketing-project.jpg" class="card-img-top" alt="Digital Marketing Campaign">
+              <div class="card-body">
+                <h3 class="h5">Multi-Channel Marketing Campaign</h3>
+                <p class="text-muted">Digital Marketing, Analytics</p>
+                <p>Successful marketing campaign achieving 300% ROI across multiple digital channels.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#marketingModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Graphics Design Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="graphics-design">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/design-project.jpg" class="card-img-top" alt="Graphics Design Work">
+              <div class="card-body">
+                <h3 class="h5">Product Packaging Design</h3>
+                <p class="text-muted">Graphics Design, Branding</p>
+                <p>Award-winning packaging design for a premium product line.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#designModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Social Media Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="social-media">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/social-project.jpg" class="card-img-top" alt="Social Media Campaign">
+              <div class="card-body">
+                <h3 class="h5">Viral Social Campaign</h3>
+                <p class="text-muted">Social Media, Content</p>
+                <p>Viral social media campaign reaching over 1M users organically.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#socialModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Web Development Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web-development">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/web-project.jpg" class="card-img-top" alt="Web Application">
+              <div class="card-body">
+                <h3 class="h5">Enterprise Web Platform</h3>
+                <p class="text-muted">Web Development, UX</p>
+                <p>Custom enterprise platform with advanced features and integrations.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#webModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Branding Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="branding">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/brand-project.jpg" class="card-img-top" alt="Brand Identity">
+              <div class="card-body">
+                <h3 class="h5">Complete Brand Transformation</h3>
+                <p class="text-muted">Branding, Strategy</p>
+                <p>Full brand transformation including identity, guidelines, and collateral.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#brandModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Animation Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="animations">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/animation-project.jpg" class="card-img-top" alt="3D Animation">
+              <div class="card-body">
+                <h3 class="h5">Product Launch Animation</h3>
+                <p class="text-muted">3D Animation, Motion Graphics</p>
+                <p>Engaging product launch animation with over 500K views.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#animationModal">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!--Content Creation Project-->
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="content">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="../img/portfolio/content-project.jpg" class="card-img-top" alt="Content Strategy">
+              <div class="card-body">
+                <h3 class="h5">Content Marketing Success</h3>
+                <p class="text-muted">Content Creation, Strategy</p>
+                <p>Comprehensive content strategy increasing engagement by 250%.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contentModal">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--project modals-->
+    <!--SEO Modal-->
+    <div class="modal fade" id="seoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">E-commerce SEO Success</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/seo-project-detail.jpg" class="img-fluid mb-4" alt="SEO Success Story Details">
+            <h6>Project Overview</h6>
+            <p>Increased organic traffic by 200% through comprehensive SEO strategy and optimization.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>SEO Audit and Analysis</li>
+              <li>Keyword Research and Optimization</li>
+              <li>On-page Optimization</li>
+              <li>Link Building and Outreach</li>
+              <li>Analytics and Tracking</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Improved website crawlability and indexing</li>
+              <li>Enhanced keyword targeting and ranking</li>
+              <li>Increased organic traffic and engagement</li>
+              <li>Improved conversion rates and ROI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Digital Marketing Modal-->
+    <div class="modal fade" id="marketingModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Multi-Channel Marketing Campaign</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/marketing-project-detail.jpg" class="img-fluid mb-4" alt="Digital Marketing Campaign Details">
+            <h6>Project Overview</h6>
+            <p>Successful marketing campaign achieving 300% ROI across multiple digital channels.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Digital Marketing Strategy and Planning</li>
+              <li>Channel Selection and Optimization</li>
+              <li>Campaign Execution and Management</li>
+              <li>Analytics and Tracking</li>
+              <li>ROI Analysis and Optimization</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Multi-channel campaign execution across social media, email, and search</li>
+              <li>Targeted audience segmentation and personalization</li>
+              <li>Real-time campaign tracking and optimization</li>
+              <li>Improved conversion rates and ROI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Graphics Design Modal-->
+    <div class="modal fade" id="designModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Product Packaging Design</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/design-project-detail.jpg" class="img-fluid mb-4" alt="Graphics Design Work Details">
+            <h6>Project Overview</h6>
+            <p>Award-winning packaging design for a premium product line.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Design Concept and Strategy</li>
+              <li>Visual Design and Prototyping</li>
+              <li>Design Refining and Finalization</li>
+              <li>Design File Preparation and Delivery</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Unique and eye-catching design concept</li>
+              <li>High-quality visual design and prototyping</li>
+              <li>Effective design refining and finalization</li>
+              <li>Professional design file preparation and delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Social Media Modal-->
+    <div class="modal fade" id="socialModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Viral Social Campaign</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/social-project-detail.jpg" class="img-fluid mb-4" alt="Social Media Campaign Details">
+            <h6>Project Overview</h6>
+            <p>Viral social media campaign reaching over 1M users organically.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Social Media Strategy and Planning</li>
+              <li>Content Creation and Curation</li>
+              <li>Campaign Execution and Management</li>
+              <li>Analytics and Tracking</li>
+              <li>Engagement and Community Building</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Viral social media campaign reaching over 1M users organically</li>
+              <li>High-quality content creation and curation</li>
+              <li>Effective campaign execution and management</li>
+              <li>Real-time analytics and tracking</li>
+              <li>Engagement and community building</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Web Development Modal-->
+    <div class="modal fade" id="webModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Enterprise Web Platform</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/web-project-detail.jpg" class="img-fluid mb-4" alt="Web Application Details">
+            <h6>Project Overview</h6>
+            <p>Custom enterprise platform with advanced features and integrations.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Web Development Strategy and Planning</li>
+              <li>Front-end Development</li>
+              <li>Back-end Development</li>
+              <li>Database Design and Development</li>
+              <li>Testing and Quality Assurance</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Custom enterprise platform with advanced features and integrations</li>
+              <li>Responsive and mobile-friendly design</li>
+              <li>Secure and scalable architecture</li>
+              <li>Real-time data analytics and reporting</li>
+              <li>Seamless user experience and navigation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Branding Modal-->
+    <div class="modal fade" id="brandModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Complete Brand Transformation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/brand-project-detail.jpg" class="img-fluid mb-4" alt="Brand Identity Details">
+            <h6>Project Overview</h6>
+            <p>Full brand transformation including identity, guidelines, and collateral.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Brand Strategy and Positioning</li>
+              <li>Visual Identity Design</li>
+              <li>Brand Guidelines and Standards</li>
+              <li>Collateral Design and Development</li>
+              <li>Launch and Implementation</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Unique and memorable brand identity</li>
+              <li>Comprehensive brand guidelines and standards</li>
+              <li>High-quality collateral design and development</li>
+              <li>Effective launch and implementation</li>
+              <li>Consistent brand messaging and visual identity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Animation Modal-->
+    <div class="modal fade" id="animationModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Product Launch Animation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/animation-project-detail.jpg" class="img-fluid mb-4" alt="3D Animation Details">
+            <h6>Project Overview</h6>
+            <p>Engaging product launch animation with over 500K views.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Animation Concept and Storyboarding</li>
+              <li>3D Modeling and Animation</li>
+              <li>Visual Effects and Compositing</li>
+              <li>Sound Design and Music Composition</li>
+              <li>Finalization and Delivery</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Engaging and memorable animation concept</li>
+              <li>High-quality 3D modeling and animation</li>
+              <li>Realistic visual effects and compositing</li>
+              <li>Immersive sound design and music composition</li>
+              <li>Professional finalization and delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Content Creation Modal-->
+    <div class="modal fade" id="contentModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Content Marketing Success</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/portfolio/content-project-detail.jpg" class="img-fluid mb-4" alt="Content Strategy Details">
+            <h6>Project Overview</h6>
+            <p>Comprehensive content strategy increasing engagement by 250%.</p>
+            <h6>Technologies Used</h6>
+            <ul>
+              <li>Content Strategy and Planning</li>
+              <li>Content Creation and Curation</li>
+              <li>Content Distribution and Promotion</li>
+              <li>Analytics and Tracking</li>
+              <li>Optimization and Refining</li>
+            </ul>
+            <h6>Key Features</h6>
+            <ul>
+              <li>Comprehensive content strategy and planning</li>
+              <li>High-quality content creation and curation</li>
+              <li>Effective content distribution and promotion</li>
+              <li>Real-time analytics and tracking</li>
+              <li>Continuous optimization and refining</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--testimonials section-->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Client Testimonials</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="mb-4">"D-Broft Technologies transformed our online presence with a beautiful, functional website that perfectly represents our brand."</p>
+                <div class="d-flex align-items-center">
+                  <img src="../img/testimonials/client1.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                  <div>
+                    <h6 class="mb-0">John Doe</h6>
+                    <small class="text-muted">CEO, TechCorp</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="mb-4">"The team's expertise in branding helped us establish a strong market presence. Highly recommended!"</p>
+                <div class="d-flex align-items-center">
+                  <img src="../img/testimonials/client2.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                  <div>
+                    <h6 class="mb-0">Jane Smith</h6>
+                    <small class="text-muted">Marketing Director, BrandCo</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                </div>
+                <p class="mb-4">"Outstanding development work on our custom CRM system. It has significantly improved our business operations."</p>
+                <div class="d-flex align-items-center">
+                  <img src="../img/testimonials/client3.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                  <div>
+                    <h6 class="mb-0">Mike Johnson</h6>
+                    <small class="text-muted">Operations Manager, ServiceHub</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--cta section-->
+    <section class="bg-primary text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 text-center text-lg-start">
+            <h2 class="mb-3">Ready to Start Your Project?</h2>
+            <p class="lead mb-lg-0">Let's create something amazing together.</p>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <a href="./contact.html" class="btn btn-light btn-lg">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add contextual link to contact -->
+    <div class="text-center mt-5 mb-5">
+      <p class="lead">Ready to start your own project?</p>
+      <a href="./contact.html" class="btn btn-primary btn-lg">Start Your Project</a>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-accent mb-4">D-Broft Technologies</h5>
+            <p class="mb-4">Transforming businesses through innovative digital solutions.</p>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-accent mb-4">Quick Links</h5>
+            <div class="footer-links">
+              <a href="about.html"><i class="bi bi-chevron-right"></i> About Us</a>
+              <a href="services.html"><i class="bi bi-chevron-right"></i> Services</a>
+              <a href="portfolio.html"><i class="bi bi-chevron-right"></i> Portfolio</a>
+              <a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-accent mb-4">Resources</h5>
+            <div class="footer-links">
+              <a href="frequent.html"><i class="bi bi-chevron-right"></i> FAQ</a>
+              <a href="condition.html"><i class="bi bi-chevron-right"></i> Terms & Conditions</a>
+              <a href="review.html"><i class="bi bi-chevron-right"></i> Reviews</a>
+              <a href="social.html"><i class="bi bi-chevron-right"></i> Social Media</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2025 D-Broft Technologies. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--scripts-->
+    <script src="../bootstrap/disributions/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/overide.js"></script>
+    <script>
+      // Portfolio filtering
+      document.addEventListener('DOMContentLoaded', function() {
+        const filterButtons = document.querySelectorAll('[data-filter]');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            // Remove active class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            button.classList.add('active');
+
+            const filterValue = button.getAttribute('data-filter');
+
+            portfolioItems.forEach(item => {
+              if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                item.style.display = 'block';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

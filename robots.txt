@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Allow: /html/
+Allow: /img/
+Disallow: /bootstrap/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://dbroft.vercel.app/sitemap.xml
+
+# Crawl-delay: 10
+
+# Block common bots that might strain server
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
