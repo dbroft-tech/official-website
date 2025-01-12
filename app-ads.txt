@@ -1,4 +1,0 @@
-google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
-unity.com, dbroft, DIRECT, 96cde08b9c05a4f1
-applovin.com, 1234567890, DIRECT
-adcolony.com, 1234567890, DIRECT
