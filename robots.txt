@@ -1,9 +1,93 @@
-User-agent: *
-Allow: /
-Allow: /html/
-Allow: /img/
-Disallow: /doc/
-Disallow: /bootstrap/
-Disallow: /css/
-Disallow: /js/
-Sitemap: https://dbroft.vercel.app/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://dbroft.vercel.app/</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://dbroft.vercel.app/img/logo.jpg</image:loc>
+            <image:title>D-Broft Technologies Logo</image:title>
+            <image:caption>Leading Digital Solutions Provider in Uganda</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/about.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://dbroft.vercel.app/img/about.jpg</image:loc>
+            <image:title>About D-Broft Technologies</image:title>
+            <image:caption>Learn about our company and mission</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/services.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://dbroft.vercel.app/img/services.jpg</image:loc>
+            <image:title>Our Digital Services</image:title>
+            <image:caption>Comprehensive digital solutions for your business</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/portfolio.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://dbroft.vercel.app/img/portfolio.jpg</image:loc>
+            <image:title>Our Portfolio</image:title>
+            <image:caption>Showcase of our successful projects</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/contact.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/review.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/frequent.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/condition.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://dbroft.vercel.app/html/social.html</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
