@@ -15,7 +15,7 @@ Allow: *.xml$
 Sitemap: https://dbroft.vercel.app/sitemap.xml
 
 # Reasonable crawl rate for main search engines
-Crawl-delay: 5
+Crawl-delay: 1
 
 # Specific bot configurations
 User-agent: Googlebot
