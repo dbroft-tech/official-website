@@ -6,7 +6,6 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
     <url>
         <loc>https://dbroft.vercel.app/</loc>
         <lastmod>2025-01-30</lastmod>
@@ -17,7 +16,6 @@
             <image:title>D-Broft Technologies Logo</image:title>
         </image:image>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/about.html</loc>
         <lastmod>2025-01-30</lastmod>
@@ -28,7 +26,6 @@
             <image:title>About D-Broft Technologies</image:title>
         </image:image>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/services.html</loc>
         <lastmod>2025-01-30</lastmod>
@@ -39,7 +36,6 @@
             <image:title>Our Digital Services</image:title>
         </image:image>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/portfolio.html</loc>
         <lastmod>2025-01-30</lastmod>
@@ -50,40 +46,34 @@
             <image:title>Our Portfolio</image:title>
         </image:image>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/contact.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/review.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/frequent.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/condition.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-
     <url>
         <loc>https://dbroft.vercel.app/html/social.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
-
 </urlset>
