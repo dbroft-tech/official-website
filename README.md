@@ -45,7 +45,7 @@ Our website is PWA-enabled, offering:
 ### Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/D-Broft.git
+git clone https://github.com/dbroft-tech/official-website.git
 ```
 
 2. Navigate to project directory
