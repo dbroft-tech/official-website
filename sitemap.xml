@@ -12,7 +12,7 @@
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://dbroft.vercel.app/img/logo.jpg</image:loc>
+            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
             <image:title>D-Broft Technologies Logo</image:title>
         </image:image>
     </url>
@@ -23,7 +23,7 @@
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://dbroft.vercel.app/img/logo.jpg</image:loc>
+            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
             <image:title>About D-Broft Technologies</image:title>
         </image:image>
     </url>
@@ -34,7 +34,7 @@
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://dbroft.vercel.app/img/logo.jpg</image:loc>
+            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
             <image:title>Our Digital Services</image:title>
         </image:image>
     </url>
@@ -45,7 +45,7 @@
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://dbroft.vercel.app/img/logo.jpg</image:loc>
+            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
             <image:title>Our Portfolio</image:title>
         </image:image>
     </url>

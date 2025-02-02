@@ -4,19 +4,19 @@
   "description": "Professional web design, branding, and development services",
   "icons": [
     {
-      "src": "./img/logo.jpg",
+      "src": "./img/favicon.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "./img/logo.jpg",
+      "src": "./img/favicon.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "./img/logo.jpg",
+      "src": "./img/favicon.png",
       "type": "image/png",
       "sizes": "144x144",
       "purpose": "any"
