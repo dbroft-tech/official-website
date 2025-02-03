@@ -1,7 +1,8 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import { injectSpeedInsights } from '@vercel/speed-insights';
+injectSpeedInsights();
+import { inject } from "@vercel/analytics"
 
-  // Portfolio Filtering
+// Portfolio Filtering
   const initPortfolioFilters = () => {
     const filterButtons = document.querySelectorAll('[data-filter]')
     const portfolioItems = document.querySelectorAll('.portfolio-item')
