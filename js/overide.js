@@ -1,6 +1,3 @@
-import { injectSpeedInsights } from '@vercel/speed-insights';
-injectSpeedInsights();
-import { inject } from "@vercel/analytics"
 
 // Portfolio Filtering
   const initPortfolioFilters = () => {
