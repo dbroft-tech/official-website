@@ -10,10 +10,6 @@
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
-            <image:title>D-Broft Technologies Logo</image:title>
-        </image:image>
     </url>
     <url>
         <loc>https://dbroft.vercel.app/html/about.html</loc>
@@ -30,20 +26,12 @@
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
-            <image:title>Our Digital Services</image:title>
-        </image:image>
     </url>
     <url>
         <loc>https://dbroft.vercel.app/html/portfolio.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://dbroft.vercel.app/img/favicon.png</image:loc>
-            <image:title>Our Portfolio</image:title>
-        </image:image>
     </url>
     <url>
         <loc>https://dbroft.vercel.app/html/contact.html</loc>
