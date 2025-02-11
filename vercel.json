@@ -1,9 +1,33 @@
 {
   "version": 2,
   "routes": [
-    { "src": "^/404.html", "dest": "/404.html" },
-    { "src": "^/page/(.*)", "dest": "/page/$1" },
-    { "src": "^/(.*)", "dest": "/$1" }
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "headers": {
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0"
+      },
+      "dest": "/404.html"
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/404.html" }
+  ],
+  "redirects": [
+    { "source": "/(.*)", "destination": "/404.html", "statusCode": 404 }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Custom-Error-Handling",
+          "value": "Enabled"
+        }
+      ]
+    }
   ],
   "cleanUrls": true,
   "trailingSlash": false,
