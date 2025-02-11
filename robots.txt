@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Allow: /html/
+Allow: /page/
 Allow: /img/
 Allow: /css/
 Allow: /js/

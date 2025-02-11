@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/page/404.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

@@ -12,49 +12,49 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/about.html</loc>
+        <loc>https://dbroft.vercel.app/page/about.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/services.html</loc>
+        <loc>https://dbroft.vercel.app/page/services.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/portfolio.html</loc>
+        <loc>https://dbroft.vercel.app/page/portfolio.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/contact.html</loc>
+        <loc>https://dbroft.vercel.app/page/contact.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/review.html</loc>
+        <loc>https://dbroft.vercel.app/page/review.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/frequent.html</loc>
+        <loc>https://dbroft.vercel.app/page/frequent.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/condition.html</loc>
+        <loc>https://dbroft.vercel.app/page/condition.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://dbroft.vercel.app/html/social.html</loc>
+        <loc>https://dbroft.vercel.app/page/social.html</loc>
         <lastmod>2025-01-30</lastmod>
         <changefreq>weekly</changefreq> <!-- Changed to weekly for better practice -->
         <priority>1.0</priority>

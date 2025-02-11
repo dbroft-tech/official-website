@@ -33,12 +33,12 @@
   "shortcuts": [
     {
       "name": "Services",
-      "url": "/html/services.html",
+      "url": "/page/services.html",
       "description": "View our services"
     },
     {
       "name": "Contact",
-      "url": "/html/contact.html",
+      "url": "/page/contact.html",
       "description": "Contact us"
     }
   ]

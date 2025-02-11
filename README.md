@@ -62,7 +62,7 @@ D-Broft/
 ├── bootstrap/         # Bootstrap framework files
 ├── css/               # Custom CSS styles
 ├── doc/               # Documentation
-├── html/              # Additional HTML pages
+├── page/              # Additional HTML pages
 ├── img/               # Image assets
 ├── js/                # JavaScript files
 ├── index.html         # Main entry point
